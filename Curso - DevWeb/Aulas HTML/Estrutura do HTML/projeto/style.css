@@ -15,3 +15,7 @@ a{
     color: rgb(56, 55, 55);
 }
 
+.centralizar{
+    display: flex;
+    justify-content: center;
+}
