@@ -1,0 +1,7 @@
+.imagem-flutuante {
+    float: left;
+    /* ou right */
+    margin: 0 1em 1em 0;
+    /* espaço ao redor para não “colar” no texto */
+    width: 200px;
+}
