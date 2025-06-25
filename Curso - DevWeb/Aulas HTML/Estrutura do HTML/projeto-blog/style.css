@@ -2,44 +2,45 @@
 ***Formatações em geral***
 */
 
-h1{
+h1 {
     color: #4e4e4e;
     font-size: 3em;
 }
 
-h2{
+h2 {
     color: #f7b600;
 }
 
-.branco{
-    color:white;
+.branco {
+    color: white;
 }
 
-.data-postagem{
+.data-postagem {
     font-size: 0.8em;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-body{
+body {
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgb(241, 238, 238);
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-a:link, a:visited{
+a:link,
+a:visited {
     color: #f7b600;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
@@ -48,16 +49,16 @@ a:hover{
 ***Layout***
 */
 
-#area-cabecalho{
+#area-cabecalho {
     background-color: #f7b600;
     text-align: center;
 }
 
-#area-menu{
+#area-menu {
     padding: 20px;
 }
 
-#area-principal{
+#area-principal {
     width: 920px;
     margin: 0 auto;
     display: flex;
@@ -65,17 +66,16 @@ a:hover{
     margin-bottom: 30px;
 }
 
-#area-postagens{
+#area-postagens {
     width: 660px;
 }
 
-#area-lateral{
+#area-lateral {
     margin-top: 20px;
-    background-color: white;
     width: 240px;
 }
 
-#rodape{
+#rodape {
     width: 920px;
     margin: 0 auto;
     background-color: gray;
@@ -88,34 +88,50 @@ a:hover{
 */
 
 
-.postagem{
+.postagem {
     padding: 20px;
     background-color: white;
     margin-top: 20px;
 }
 
-.postagem *{
+.postagem * {
     width: 100%;
 }
 
-.cabecalho{
+.cabecalho {
     margin-bottom: 10px;
+}
+
+.titulo-lateral {
+    background-color: rgb(228, 223, 223);
+    color: rgb(71, 69, 69);
+    padding: 2%;
+}
+
+.conteudo-lateral{
+    padding: 4%;
+    background-color: white;
+}
+
+.categorias{
+    margin-top: 20px;
 }
 
 /* 
 ***Formatações do menu***
 */
 
- #area-menu a{
+#area-menu a {
     text-decoration: none;
 }
 
- #area-menu a:link, #area-menu a:visited{
+#area-menu a:link,
+#area-menu a:visited {
     color: #FFF;
     padding: 10px 14px;
 }
 
- #area-menu a:hover{
+#area-menu a:hover {
     color: #f7b600;
     background-color: #FFF;
 }
