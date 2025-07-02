@@ -1,0 +1,29 @@
+ul {
+  margin: 0;
+  padding: 0;
+  width: 150px;
+  background-color: rgb(243, 188, 5);
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+li {
+  background-image: url("seta.png");
+  background-repeat: no-repeat;
+  background-position-x: 0%;
+  background-position-y: 50%;
+  text-indent: 20px;
+  padding: 10px;
+}
+
+li:hover {
+  background-color: rgb(253, 165, 0);
+}
