@@ -1,9 +1,27 @@
-body * {
-  border: 1px solid red;
+#opcoes {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  background-color: #159cb0;
+  background-image: url(fundo-horizontal.png);
+  background-repeat: repeat-x;
+
+  display: flex;
 }
 
-#opcoes{
-  display: flex;
-  list-style: none;
-  gap: 5%;
+#opcoes li {
+  padding: 8px;
+  background-image: url(divisor.png);
+  background-repeat: repeat-y;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  padding: 0 20px;
+}
+
+li:hover, .selecionado{
+  background-color: #44cade;
 }
