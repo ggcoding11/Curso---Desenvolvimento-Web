@@ -1,0 +1,19 @@
+body *{
+  border: 1px solid red;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.cabecalho{
+  text-align: center;
+  padding: 20px;
+  font-weight: bold;
+  background-color: rgb(190, 189, 189);
+}
+
+.conteudo{
+  display: flex;
+}
+
