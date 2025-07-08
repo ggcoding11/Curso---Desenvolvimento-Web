@@ -1,19 +1,52 @@
-body *{
-  border: 1px solid red;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-body{
+body {
   font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
-.cabecalho{
+.container {
+  margin-top: 40px;
+  max-width: 1000px;
+}
+
+.cabecalho {
   text-align: center;
-  padding: 20px;
+  padding: 38px;
+  font-size: 30px;
   font-weight: bold;
-  background-color: rgb(190, 189, 189);
+  background-color: rgb(139, 138, 138);
 }
 
-.conteudo{
+.conteudo {
   display: flex;
 }
 
+#navbar {
+  background-color: rgb(207, 205, 205);
+  padding: 80px;
+  list-style: none;
+}
+
+.post{
+  margin-top: 10px;
+}
+
+
+.lateral-direita{
+  background-color: rgb(207, 205, 205);
+  width: 1200px;
+  padding: 10px;
+}
+
+.centro{
+  padding: 20px;
+}
+
+.rodape{
+  background-color: gray;
+}
