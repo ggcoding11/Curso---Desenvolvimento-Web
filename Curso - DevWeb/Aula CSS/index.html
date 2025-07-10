@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body * {
+        border: 1px solid red;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+
+      .container {
+        position: relative;
+        width: 40%;
+        height: 200px;
+        border-radius: 6%;
+      }
+
+      .profile {
+        position: absolute;
+        border-radius: 100%;
+        width: 0%;
+        height: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="profile">Foto</div>
+
+      Alguma coisa
+    </div>
+  </body>
+</html>
