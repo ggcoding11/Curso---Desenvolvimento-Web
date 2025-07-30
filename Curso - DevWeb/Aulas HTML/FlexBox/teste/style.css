@@ -1,10 +1,19 @@
 body{
     background-color: bisque;
+    height: 100vh;
 }
 
 .item{
     width: 200px;
     height: 200px;
     background-color: brown;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    height: 500px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
