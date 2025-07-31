@@ -3,17 +3,26 @@ body{
     height: 100vh;
 }
 
+body *{
+    border: 1px solid red;
+}
+
 .item{
     width: 200px;
     height: 200px;
     background-color: brown;
 }
 
+.item1{
+    flex-shrink: 2;
+}
+
 .container{
     display: flex;
-    gap: 20px;
+    row-gap: 10px;
+    column-gap: 10px;
     height: 500px;
-    flex-direction: column;
-    flex-wrap: wrap;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
 }
 
