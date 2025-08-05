@@ -14,7 +14,7 @@ body *{
 }
 
 .item1{
-    flex-shrink: 2;
+    align-self: flex-end;
 }
 
 .container{
