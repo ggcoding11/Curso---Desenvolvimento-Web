@@ -4,17 +4,54 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
+
+  display: flex;
+  justify-content: center;
 }
 
 .container {
-  margin-top: 10%;
-  margin-right: 40%;
-  position: relative;
-  border-radius: 4%;
   background-color: rgb(255, 255, 255, 0.3);
+  width: 54%;
+  height: 40%;
+  border-radius: 2%;
+  margin-top: 10%;
 
+  position: relative;
+}
+
+.formulario {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+}
+
+.formulario input {
+  width: 80%;
+  height: 12%;
+  background-image: url("/Curso - DevWeb/Aula CSS/projeto-form/img/icone-cadeado.png");
+  background-repeat: no-repeat;
+  background-position: 2%;
+  padding-left: 10%;
+}
+
+.formulario button {
+  color: white;
+  width: 92%;
+  height: 12%;
+  background-color: orange;
+  border-style: solid;
+  border-color: rgb(241, 114, 10);
 }
 
 #foto-perfil {
   position: absolute;
+  top: 0%;
+  left: 50%;
+
+  width: 26%;
+
+  transform: translate(-50%, -50%);
 }
