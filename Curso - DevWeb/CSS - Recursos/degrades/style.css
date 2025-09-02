@@ -1,0 +1,12 @@
+#caixa {
+  width: 300px;
+  height: 300px;
+  /* background: url("../box-sizing/arquivos-necessarios-border-radius-box-sizing/perfil.jpg"); */
+  /* background: linear-gradient(90deg, red, green, yellow, green); */
+  overflow-wrap: break-word;
+  background: radial-gradient(red, green, yellow);
+}
+
+#caixa h1 {
+  /* background: rgb(255, 255, 255, 0.8); */
+}
