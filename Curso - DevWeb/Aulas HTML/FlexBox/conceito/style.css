@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  height: 400px;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.item {
+  
+}
