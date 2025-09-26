@@ -6,5 +6,16 @@
 }
 
 .item {
-  
+  background-color: gray;
+  margin: 10px; 
+  width: 200px;
+  height: 200px;
+}
+
+.item1 {
+  flex-grow: 1;
+}
+
+.item2 {
+  flex-grow: 2;
 }
