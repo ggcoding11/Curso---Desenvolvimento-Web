@@ -1,30 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="normalize.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <div class="container">
-    <header>
-      <div id="logo">
-        <h1>
-          <a href="">Museu Nacional</a>
-        </h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div id="logo">
+          <h1>
+            <a href="">Museu Nacional</a>
+          </h1>
+        </div>
 
         <nav>
           <ul>
-            <li>1</li>
-            <li>2</li>
-            <li>3</li>
-            <li>4</li>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Exposições</a>
+            </li>
+            <li>
+              <a href="#">Pesquisa</a>
+            </li>
+            <li>
+              <a href="#">Acervo</a>
+            </li>
+            <li>
+              <a href="#">Vídeos</a>
+            </li>
+            <li>
+              <a href="#">Fotos</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
           </ul>
         </nav>
+      </header>
+
+      <div class="conteudo">
+        <div class="principal">
+          <section id="capa">
+            <img src="../projeto-museu/img/museu.png" alt="" />
+          </section>
+        </div>
+
+        <aside>
+          <section id="depoimento">
+            <img src="../projeto-museu/img/depoimento.png" alt="" />
+          </section>
+
+          <section id="visita">
+            <h4>Faça uma visita</h4>
+
+            <form>
+              <fieldset>
+                <legend>Selecione uma data</legend>
+                
+                <label for="data">Data</label>
+                <input type="date" name="" id="data">
+                
+                <br>
+
+                <label for="qtd">Qtd pessoas</label>
+                <input type="text" name="" id="qtd" value="1">
+
+                <br>
+
+                <input type="submit" value="Verificar disponibilidade">
+              </fieldset>
+
+            </form>
+          </section>
+        </aside>
       </div>
-    </header>
-  </div>
-</body>
+    </div>
+  </body>
 </html>
