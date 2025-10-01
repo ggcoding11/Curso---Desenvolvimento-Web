@@ -74,6 +74,12 @@ nav ul li a:hover {
 
 .postagens {
   display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.postagens * {
+  flex-basis: 340px;
 }
 
 /* Menu lateral */
