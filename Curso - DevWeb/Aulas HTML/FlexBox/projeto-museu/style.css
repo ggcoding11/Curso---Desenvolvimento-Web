@@ -46,20 +46,20 @@ header {
 
 /* Menu de navegação*/
 
-nav ul {
+header nav ul {
   display: flex;
   list-style: none;
 }
 
-nav ul li {
+header nav ul li {
   margin-left: 20px;
 }
 
-nav ul li a {
+header nav ul li a {
   text-transform: uppercase;
 }
 
-nav ul li a:hover {
+header nav ul li a:hover {
   border-bottom: 1px solid #535858;
 }
 
@@ -142,3 +142,23 @@ section#galeria-fotos a img {
 }
 
 /* Menu lateral */
+
+/* Rodapé */
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding-bottom: 30px;
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 0;
+  display: flex;
+  gap: 20px;
+}
+
+/* Rodapé */
