@@ -1,3 +1,5 @@
+/* Formatação geral */
+
 body {
   background: #f4f2ec url(../projeto-museu/img/fundo.png) repeat-x;
   font: 12px "Lucinda Grande", Arial, sans-serif;
@@ -18,6 +20,8 @@ a:visited {
 a:hover {
   color: #227115;
 }
+
+/* Formatação geral */
 
 /* Cabeçalho */
 
@@ -61,12 +65,14 @@ nav ul li a:hover {
 
 /* Menu de navegação*/
 
-.conteudo {
+/* Conteúdos principais */
+
+.principal {
   display: flex;
   gap: 20px;
 }
 
-.principal {
+.conteudo {
   display: flex;
   width: 710px;
   flex-direction: column;
@@ -82,6 +88,12 @@ nav ul li a:hover {
   flex-basis: 340px;
 }
 
+.postagens li {
+  color: #af670a;
+}
+
+/* Conteúdos principais */
+
 /* Menu lateral */
 
 aside {
@@ -89,7 +101,7 @@ aside {
 }
 
 section#visita {
-  margin-top: 40px;
+  margin-top: 20px;
   background-color: #cdc8b1;
   padding: 2px 10px;
 }
@@ -123,11 +135,10 @@ section#galeria-fotos a {
   justify-content: space-evenly;
 }
 
-section#galeria-fotos a img{
+section#galeria-fotos a img {
   display: block;
   padding: 20px;
   background: url(../projeto-museu/img/fundo-foto.png);
 }
-
 
 /* Menu lateral */
